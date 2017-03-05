@@ -1,0 +1,47 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.mohit.ln"
+        },
+        "cordova.plugins.diagnostic": {
+            "PACKAGE_NAME": "com.mohit.ln"
+        },
+        "cordova-plugin-nativestorage": {
+            "PACKAGE_NAME": "com.mohit.ln"
+        },
+        "cordova-plugin-datepicker": {
+            "PACKAGE_NAME": "com.mohit.ln"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.mohit.ln"
+        },
+        "cordova-plugin-geolocation": {
+            "GEOLOCATION_USAGE_DESCRIPTION": " ",
+            "PACKAGE_NAME": "com.mohit.ln"
+        },
+        "de.appplant.cordova.plugin.local-notification": {
+            "PACKAGE_NAME": "com.mohit.ln"
+        },
+        "cordova-plugin-x-toast": {
+            "PACKAGE_NAME": "com.mohit.ln"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.mohit.ln"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.mohit.ln"
+        },
+        "cordova-plugin-app-event": {
+            "PACKAGE_NAME": "com.mohit.ln"
+        }
+    }
+}

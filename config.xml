@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget android-versionCode="1" id="com.mohit.ln" ios-CFBundleVersion="1.0.0" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Locate &amp; Notify</name>
+    <description>
+        Finds your place and notify on time.
+    </description>
+    <author email="mohit.agarwal124@gmail.com" href="">
+        Mohit Agarwal
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+    <preference name="BackupWebStorage" value="none" />
+    <preference name="DisallowOverscroll" value="false" />
+    <preference name="android-minSdkVersion" value="16" />
+    <preference name="android-targetSdkVersion" value="23" />
+    <preference name="deployment-target" value="9.0" />
+    <preference name="StatusBarBackgroundColor" value="#1616be" />
+    <preference name="StatusBarOverlaysWebView" value="false" />
+    <preference name="SuppressesLongPressGesture" value="true" />
+    <engine name="android" spec="~6.1.2" />
+    <engine name="ios" spec="~4.3.1" />
+    <plugin name="cordova-plugin-whitelist" spec="1" />
+    <plugin name="cordova-plugin-device" spec="~1.1.4" />
+    <plugin name="cordova.plugins.diagnostic" spec="https://github.com/dpa99c/cordova-diagnostic-plugin.git" />
+    <plugin name="cordova-plugin-nativestorage" spec="https://github.com/TheCocoaProject/cordova-plugin-nativestorage.git" />
+    <plugin name="cordova-plugin-datepicker" spec="https://github.com/VitaliiBlagodir/cordova-plugin-datepicker.git" />
+    <plugin name="cordova-plugin-geolocation" spec="https://github.com/apache/cordova-plugin-geolocation.git" />
+    <plugin name="de.appplant.cordova.plugin.local-notification" spec="https://github.com/katzer/cordova-plugin-local-notifications.git" />
+    <plugin name="cordova-plugin-x-toast" spec="~2.6.0" />
+    <plugin name="cordova-plugin-statusbar" spec="https://github.com/apache/cordova-plugin-statusbar.git" />
+</widget>
